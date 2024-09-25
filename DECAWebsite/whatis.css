@@ -1,0 +1,371 @@
+@font-face {
+    font-family:'Gotham Bold';
+    src: 
+        url(/Gotham-font-family/Gotham/Gotham-Bold.otf) format("opentype")
+}
+
+@keyframes fadeslideupin {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn { 
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gotham Bold';
+}
+
+.main {
+    
+    width: 100%;
+    height: 6vh;
+    position: relative;
+    padding: 10 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+nav{
+    background-color: white;
+    overflow: hidden;
+    height: 62.5px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    margin-left: 100px;
+    width: 100px;
+    
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.heading {
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#introduction {
+    position: relative;
+    color: #204b6a;
+    font-size: 80px;
+    margin: 50px;
+
+    animation: fadeslideupin 2s ease-in-out 0.5s 1 normal both; 
+
+}
+
+#deca {
+    position: relative;
+    color: #C7C7C7;
+    text-align: right;
+    font-size: 500px;
+    z-index: -1;
+
+    animation: fadeslideupin 2s ease-in-out 1s 1 normal both;
+}
+
+.red {
+    width:25%;
+    height:900px;
+    background-image: linear-gradient(to top, #E2694D, white);
+    float: right;
+}
+.rede {
+    width:25%;
+    height:200px;
+    background-image: linear-gradient(to top, white, #E2694D);
+    float: right;
+}
+
+.red h2 {
+    padding: 50px;
+    padding-top: 0px;
+    padding-bottom: 225px;
+    color: #9d1d00;
+    font-size: 25px;
+    text-align: center;
+}
+
+.red p {
+    color: #9d1d00;
+    font-size: 30px;
+    margin: 50px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.blue {
+    width: 25%;
+    height: 900px;
+    background-image: linear-gradient(to top, #227BB8, white);
+    float: right;
+}
+
+.bluee {
+    width: 25%;
+    height: 200px;
+    background-image: linear-gradient(to top,white, #227BB8);
+    float: right;
+}
+
+.blue h2 {
+    padding: 50px;
+    padding-top: 0px;
+    padding-bottom: 225px;
+    color: rgb(8, 78, 124);
+    font-size: 25px;
+    text-align: center;
+}
+
+.blue p {
+    color: rgb(8, 78, 124);
+    font-size: 30px;
+    margin: 50px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+
+.yellow {
+    width: 25%;
+    height: 900px;
+    background-image: linear-gradient(to top, #FFD36A, white);
+    float: right;
+}
+
+.yellowe {
+    width: 25%;
+    height: 200px;
+    background-image: linear-gradient(to top, white, #FFD36A);
+    float: right;
+}
+
+.yellow h2 {
+    padding: 50px;
+    padding-top: 0px;
+    padding-bottom: 200px;
+    color: #6f510b;
+    font-size: 25spx;
+    text-align: center;
+}
+
+.yellow p {
+    color: #6f510b;
+    font-size: 30px;
+    margin: 50px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+
+.green {
+    width: 25%;
+    height: 900px;
+    background-image: linear-gradient(to top, #007947, white);
+    float: right;
+}
+
+.greene {
+    width: 25%;
+    height: 200px;
+    background-image: linear-gradient(to top, white, #007947);
+    float: right;
+}
+
+.green h2 {
+    padding: 50px;
+    padding-top: 0px;
+    padding-bottom: 225px;
+    color: #0a492f;
+    font-size: 25px;
+    text-align: center;
+}
+
+.green p {
+    color: #0a492f;
+    font-size: 30px;
+    margin: 50px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.categories {
+    width: 100%;
+    height: 900px;
+}
+.content{
+    text-align: left;
+}
+
+.content h1{
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+    line-height: 1em;
+}
+
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    border: 1px solid white;
+    padding: 5px 20px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.midtwo {
+    width: 100%;
+    height: vh;
+    background: white;
+    margin-top: 350px;
+}
+
+.midtwodetails {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 20px 8%;
+    margin-bottom: 400px;
+    color: #0072CE;
+}
+
+#midtitle {
+    position: relative;
+    color: #204b6a;
+    font-size: 25px;
+    margin-left: 50px;
+
+}
+
+.icons {
+    width: 50px;
+    margin: left;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px 8%;
+    margin-top: 100px
+}
+
+#roleplayicon {
+    width: 50px;
+    height: 50px;
+    margin-left: 25px;
+}
+
+#casestudyicon {
+    width: 50px;
+    height: 50px;
+    margin-left: 355px;
+}
+
+#preparedeventsicon {
+    width: 44px;
+    height: 44px;
+    margin-left: 385px;
+}
+
+#onlinesimicon {
+    width: 40px;
+    height: 40px;
+    margin-left: 420px;
+}
+
+.footer {
+    /* width: 100%;
+    height: 60vh;
+    background-color: #1F2A32;
+    padding-left: 200px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    position: absolute; */
+
+    background-color:#1F2A32;
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    padding: 20 5%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.contact h3{
+    color: white;
+    font-size: 25px;
+    
+}
+
+.contact {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.contact ul li{
+    list-style-type: none;
+    position: relative;
+    color:white;
+    margin-left: 370px;
+}
+
+.contact ul li a{
+    text-decoration: none;
+    color:#8F8F8F;
+    font-size: 12px;
+}
+.contactinfo {
+    line-height: 25px;
+}
+
+.pages {
+    line-height: 35px;
+}
+
+hr.one{
+    width: 75%;
+    height: 0.25px;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    margin-top: 325px;
+}
