@@ -1,0 +1,61 @@
+.services-card-services-card {
+  width: 250px;
+  background-color: #feffff;
+}
+ 
+.services-card-container {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-radius4);
+  margin-bottom: var(--dl-space-space-twounits);
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+ 
+.services-card-image {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+ 
+.services-card-text1 {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+ 
+.services-card-text2 {
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+ 
+.services-card-text3 {
+  cursor: pointer;
+  text-decoration: underline;
+}
+ 
+.services-cardroot-class-name {
+  fill: var(--dl-color-scheme-darkblue);
+  color: var(--dl-color-scheme-darkblue);
+  margin-right: var(--dl-space-space-unit);
+  background-color: #ffffff;
+}
+ 
+.services-cardroot-class-name1 {
+  fill: var(--dl-color-scheme-darkblue);
+  color: var(--dl-color-scheme-darkblue);
+  background-color: #ffffff;
+}
+ 
+.services-cardroot-class-name2 {
+  margin-right: var(--dl-space-space-unit);
+  background-color: #ffffff;
+}
+ 
+.services-cardroot-class-name3 {
+  margin-right: var(--dl-space-space-unit);
+  background-color: #ffffff;
+}

@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DS DECA Website</title>
+    <meta property="og:title" content="DS DECA Website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: DM Sans;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: undefined;
+        letter-spacing: normal;
+        line-height: 1.3;
+        color: var(--dl-color-scheme-darkblue);
+        background: var(--dl-color-scheme-white);
+
+        fill: var(--dl-color-scheme-darkblue);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="public/decalogo.png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital,wght@0,400;1,400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      .services-card:hover > div{
+      background-color: #fff
+      }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container1">
+        <navigation-wrapper class="navigation-wrapper">
+          <!--Navigation component-->
+          <header data-role="Header" class="navigation-header">
+            <div class="navigation-max-width">
+              <img
+                alt="logo"
+                src="public/doversherborndeca-200h.png"
+                class="navigation-image1"
+              />
+              <div class="navigation-nav1">
+                <navigation-links-wrapper
+                  class="navigation-links-wrapper"
+                  rootclassname="navigation-linksundefined"
+                >
+                  <!--NavigationLinks component-->
+                  <nav
+                    class="navigation-links-nav navigation-linksroot-class-name17"
+                  >
+                    <span class="navigation-links-text1 Navigation-Link">
+                      <span>About Us</span>
+                    </span>
+                    <span class="navigation-links-text2 Navigation-Link">
+                      <span>Preparation</span>
+                    </span>
+                    <span class="navigation-links-text3 Navigation-Link">
+                      <span>Events</span>
+                    </span>
+                  </nav>
+                </navigation-links-wrapper>
+                <button
+                  class="navigation-register1 button-secondary button button-md"
+                >
+                  <span>Contact Us</span>
+                </button>
+              </div>
+              <div data-role="BurgerMenu" class="navigation-burger-menu">
+                <svg viewBox="0 0 1024 1024" class="navigation-icon1">
+                  <path
+                    d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                  ></path>
+                </svg>
+              </div>
+              <div data-role="MobileMenu" class="mobile-menu">
+                <div class="navigation-nav2">
+                  <div class="navigation-container">
+                    <img alt="image" src="public/logo1-1500h.png" />
+                    <div
+                      data-role="CloseMobileMenu"
+                      class="navigation-close-mobile-menu"
+                    >
+                      <svg viewBox="0 0 1024 1024" class="navigation-icon3">
+                        <path
+                          d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <navigation-links-wrapper-a2et
+                    class="navigation-links-wrapper-a2et"
+                    rootclassname="navigation-linksundefined"
+                  >
+                    <!--NavigationLinks component-->
+                    <nav
+                      class="navigation-links-nav1 navigation-linksroot-class-name18"
+                    >
+                      <span class="navigation-links-text4 Navigation-Link">
+                        <span>Home</span>
+                      </span>
+                      <span class="navigation-links-text5 Navigation-Link">
+                        <span>About</span>
+                      </span>
+                      <span class="navigation-links-text6 Navigation-Link">
+                        <span>Portofolio</span>
+                      </span>
+                    </nav>
+                  </navigation-links-wrapper-a2et>
+                  <button class="button-secondary button button-md">
+                    <span>Get in touch</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </header>
+        </navigation-wrapper>
+        <main class="home-main">
+          <div class="home-hero section-container">
+            <div class="home-content1">
+              <div class="home-images">
+                <div class="home-column1">
+                  <img
+                    alt="pastedImage"
+                    src="public/external/pastedimage-oy26-1000h-1000h.png"
+                    class="home-pasted-image1"
+                  />
+                </div>
+                <div class="home-column2">
+                  <img
+                    alt="pastedImage"
+                    src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
+                    class="home-pasted-image2"
+                  />
+                  <img
+                    alt="pastedImage"
+                    src="public/external/pastedimage-c39.svg"
+                    class="home-pasted-image3"
+                  />
+                </div>
+                <div class="home-column3">
+                  <img
+                    alt="pastedImage"
+                    src="public/external/pastedimage-iqnj.svg"
+                    class="home-pasted-image4"
+                  />
+                  <img
+                    alt="pastedImage"
+                    src="public/external/pastedimage-06e.svg"
+                    class="home-pasted-image5"
+                  />
+                </div>
+              </div>
+              <div class="home-content2">
+                <h1 class="home-title">
+                  <span>WE ARE</span>
+                  <br />
+                  <span>DOVER SHERBORN</span>
+                  <span class="home-text13">DECA</span>
+                  <br />
+                </h1>
+                <a href="#what-is-deca">
+                  <button
+                    class="home-register button-secondary button button-md"
+                  >
+                    Learn More
+                  </button>
+                </a>
+              </div>
+            </div>
+            <video
+              src="public/external/DECA Promo.mp4"
+              loop="true"
+              muted="true"
+              poster=""
+              preload="auto"
+              autoplay="true"
+              playsinline=""
+              class="home-video"
+            ></video>
+          </div>
+          <div class="home-services section-container">
+            <div class="home-max-width1 max-content-container">
+              <div id="what-is-deca">
+                <div class="home-heading-container">
+                  <div class="home-text-container1">
+                    <span class="home-text15">About Us</span>
+                    <h2 class="home-text16">
+                      <span>What is DECA?</span>
+                      <br />
+                    </h2>
+                    <h2 class="home-text19">
+                      <span class="home-text20">
+                        "DECA prepares emerging leaders and entrepreneurs in
+                        marketing, finance, hospitality, and management."
+                      </span>
+                      <br class="home-text23" />
+                    </h2>
+                  </div>
+                  <div class="home-controls"></div>
+                </div>
+              </div>
+              <div class="home-cards-container">
+                <component1-wrapper
+                  class="component1-wrapper"
+                  rootclassname="component1undefined"
+                >
+                  <!--Component1 component-->
+                  <div class="component1-container component1root-class-name">
+                    <services-card-wrapper
+                      class="services-card-wrapper"
+                      rootclassname="services-cardundefined"
+                    >
+                      <!--ServicesCard component-->
+                      <div
+                        class="services-card-services-card services-card services-cardroot-class-name3"
+                      >
+                        <div class="services-card-container">
+                          <img
+                            alt="image"
+                            src="public/icons8-bonds-48-200h.png"
+                            class="services-card-image"
+                          />
+                        </div>
+                        <span class="services-card-text1">
+                          <span>Finance &amp; Accounting</span>
+                        </span>
+                        <span class="services-card-text2">
+                          <span>
+                            Use financial analysis and accounting to solve
+                            problems, create budgets, and show expertise.
+                          </span>
+                        </span>
+                        <span class="services-card-text3">
+                          <a href="https://www.deca.org/career-clusters/finance" target="_blank" rel="noopener noreferrer">Learn more</a>
+                      </span>
+                      </div>
+                    </services-card-wrapper>
+                    <services-card-wrapper-w0pb
+                      class="services-card-wrapper-w0pb"
+                      rootclassname="services-cardundefined"
+                    >
+                      <!--ServicesCard component-->
+                      <div
+                        class="services-card-services-card1 services-card services-cardroot-class-name"
+                      >
+                        <div class="services-card-container1">
+                          <img
+                            alt="image"
+                            src="public/icons8-business-management-48-200h.png"
+                            class="services-card-image1"
+                          />
+                        </div>
+                        <span class="services-card-text4">
+                          <span>Business Management &amp; Administration</span>
+                        </span>
+                        <span class="services-card-text5">
+                          <span>
+                            Create business plans emphasizing leadership,
+                            strategy, and management skills.
+                          </span>
+                        </span>
+                        <span class="services-card-text6">
+                          <a href="https://www.deca.org/career-clusters/business-management-administration" target="_blank" rel="noopener noreferrer">Learn more</a>
+                      </span>
+                      </div>
+                    </services-card-wrapper-w0pb>
+                    <services-card-wrapper-17vs
+                      class="services-card-wrapper-17vs"
+                      rootclassname="services-cardundefined"
+                    >
+                      <!--ServicesCard component-->
+                      <div
+                        class="services-card-services-card2 services-card services-cardroot-class-name2"
+                      >
+                        <div class="services-card-container2">
+                          <img
+                            alt="image"
+                            src="public/icons8-service-bell-48-200h.png"
+                            class="services-card-image2"
+                          />
+                        </div>
+                        <span class="services-card-text7">
+                          <span>Hospitality &amp; Tourism</span>
+                        </span>
+                        <span class="services-card-text8">
+                          <span>
+                            Manage events, develop campaigns, and tackle
+                            challenges in hospitality and tourism.
+                          </span>
+                        </span>
+                        <span class="services-card-text9">
+                          <a href="https://www.deca.org/career-clusters/hospitality-and-tourism" target="_blank" rel="noopener noreferrer">Learn more</a>
+                      </span>
+                      </div>
+                    </services-card-wrapper-17vs>
+                    <services-card-wrapper-s5ow
+                      class="services-card-wrapper-s5ow"
+                      rootclassname="services-cardundefined"
+                    >
+                      <!--ServicesCard component-->
+                      <div
+                        class="services-card-services-card3 services-card services-cardroot-class-name1"
+                      >
+                        <div class="services-card-container3">
+                          <img
+                            alt="image"
+                            src="public/icons8-total-sales-48-200h.png"
+                            class="services-card-image3"
+                          />
+                        </div>
+                        <span class="services-card-text10">
+                          <span>Marketing &amp; Sales</span>
+                        </span>
+                        <span class="services-card-text11">
+                          <span>
+                            Work in product promotion, market research,
+                            advertising, and sales strategies.
+                          </span>
+                        </span>
+                        <span class="services-card-text12">
+                          <a href="https://www.deca.org/career-clusters/marketing" target="_blank" rel="noopener noreferrer">Learn more</a>
+                      </span>
+                      </div>
+                    </services-card-wrapper-s5ow>
+                  </div>
+                </component1-wrapper>
+              </div>
+            </div>
+          </div>
+          <div class="home-portofolio section-container">
+            <div class="home-max-width2 max-content-container">
+              <div class="home-text-container2">
+                <span class="home-text24">PREPARATION</span>
+                <h2 class="home-text25">Explore DECA Resources</h2>
+                <h2 class="home-text26">
+                  If you are a Dover-Sherborn DECA student, check the Google
+                  Classroom for login information!
+                </h2>
+                <button class="button-secondary button-lg button">
+                  See all resources
+                </button>
+              </div>
+              <div class="home-tab-selector-cards-container1">
+                <portofolio-card-wrapper
+                  class="portofolio-card-wrapper"
+                  rootclassname="portofolio-cardundefined"
+                >
+                  <!--PortofolioCard component-->
+                  <div
+                    class="portofolio-card-speaker-card portofolio-cardroot-class-name"
+                  >
+                    <div class="portofolio-card-image-container">
+                      <a href="https://www.decaplus.org/" target="_blank" rel="noopener noreferrer">
+                        <img
+                            alt="image"
+                            src="public/external/1717719663-484ca141dc14094fdf6995d863a4ba651c3f33c70d2b59def3218ca37f67cd27-d-400h.webp"
+                            class="portofolio-card-image"
+                        />
+                    </a>
+                    </div>
+                    <span class="portofolio-card-first-name">
+                      <span>DECA+</span>
+                    </span>
+                  </div>
+                </portofolio-card-wrapper>
+                <portofolio-card-wrapper-94jn
+                  class="portofolio-card-wrapper-94jn"
+                  rootclassname="portofolio-cardundefined">
+                  <!--PortofolioCard component-->
+                  <div
+                    class="portofolio-card-speaker-card1 portofolio-cardroot-class-name5">
+                  <a href="https://answerwrite.com/Login.aspx?ID=503" target="_blank" rel="noopener noreferrer">
+                    <div class="portofolio-card-image-container1">
+                        <img
+                            alt="image"
+                            src="public/external/sddefault-400h.jpg"
+                            class="portofolio-card-image1"/>
+                    </div>
+                  </a>
+                    <span class="portofolio-card-first-name1">
+                      <span>Answerwrite Practice Exams</span>
+                    </span>
+                  </div>
+                </portofolio-card-wrapper-94jn>
+                <portofolio-card-wrapper-51nr
+                  class="portofolio-card-wrapper-51nr"
+                  rootclassname="portofolio-cardundefined">
+                  <!--PortofolioCard component-->
+                  <div
+                    class="portofolio-card-speaker-card2 portofolio-cardroot-class-name4"
+                  >
+                  <a href="https://www.decadirect.org/articles/a-student-guide-to-mastering-decas-role-plays" target="_blank" rel="noopener noreferrer">
+                    <div class="portofolio-card-image-container2">
+                        <img
+                            alt="A Student Guide to Mastering DECA’s Role Plays"
+                            src="public/external/screenshot%202025-01-28%20at%204.23.55%C3%A2%C2%80%C2%AFpm-400h.png"
+                            class="portofolio-card-image2"/>
+                      </div>
+                    </a>
+                    <span class="portofolio-card-first-name2">
+                      <span>
+                        A Student Guide to Mastering DECA's Role-plays
+                      </span>
+                    </span>
+                  </div>
+                </portofolio-card-wrapper-51nr>
+              </div>
+              <div class="home-tab-selector-cards-container2">
+                <portofolio-card-wrapper-oobx
+                  class="portofolio-card-wrapper-oobx"
+                  rootclassname="portofolio-cardundefined">
+                  <!--PortofolioCard component-->
+                  <div
+                    class="portofolio-card-speaker-card3 portofolio-cardroot-class-name1">
+                    <div class="portofolio-card-image-container3">
+                      <a href="https://quizlet.com/search?query=deca-quizlets&type=all" target="_blank" rel="noopener noreferrer">
+                        <img
+                            alt="DECA Quizlets"
+                            src="public/quizlet-400h.png"
+                            class="portofolio-card-image3"
+                        />
+                    </a>
+                    </div>
+                    <span class="portofolio-card-first-name3">
+                      <span>Quizlet Sets</span>
+                    </span>
+                  </div>
+                </portofolio-card-wrapper-oobx>
+                <portofolio-card-wrapper-s83g
+                  class="portofolio-card-wrapper-s83g"
+                  rootclassname="portofolio-cardundefined">
+                  <!--PortofolioCard component-->
+                  <div
+                    class="portofolio-card-speaker-card4 portofolio-cardroot-class-name2">
+                    <div class="portofolio-card-image-container4">
+                      <img
+                        alt="image"
+                        src="public/buzzwords%2B-%2Bhospitality%2B%2B%2Btourism_page_2-400h.jpg"
+                        class="portofolio-card-image4"
+                      />
+                    </div>
+                    <span class="portofolio-card-first-name4">
+                      <span>DECA Key Buzzwords</span>
+                    </span>
+                  </div>
+                </portofolio-card-wrapper-s83g>
+                <portofolio-card-wrapper-r5zp
+                  class="portofolio-card-wrapper-r5zp"
+                  rootclassname="portofolio-cardundefined">
+                  <!--PortofolioCard component-->
+                  <div
+                    class="portofolio-card-speaker-card5 portofolio-cardroot-class-name3">
+                    <div class="portofolio-card-image-container5">
+                      <img
+                        alt="image"
+                        src="public/youtube-square-logo-3f9d037665-seeklogo.com-400h.png"
+                        class="portofolio-card-image5"
+                      />
+                    </div>
+                    <span class="portofolio-card-first-name5">
+                      <span>Youtube Playlist</span>
+                    </span>
+                  </div>
+                </portofolio-card-wrapper-r5zp>
+              </div>
+            </div>
+          </div>
+          <div class="home-blog section-container">
+            <div class="home-max-width3 max-content-container">
+              <span class="home-text27">from Events</span>
+              <h2 class="home-text28">Photos from competition</h2>
+              <button class="home-primary2 button-secondary button-lg button">
+                Explore
+              </button>
+              <div class="home-blog-cards-container">
+                <blog-card-wrapper
+                  class="blog-card-wrapper"
+                  rootclassname="blog-cardundefined">
+                  <!--BlogCard component-->
+                  <div class="blog-card-blog-card blog-cardroot-class-name">
+                    <img
+                      alt="image"
+                      src="public/external/img_2823-1500w.jpeg"
+                      class="blog-card-image"
+                    />
+                    <div class="blog-card-container">
+                      <button class="blog-card-button button-secondary button">
+                        <span>
+                          <fragment class="home-fragment1">
+                            <span class="home-text29">DISTRICTS</span>
+                          </fragment>
+                        </span>
+                      </button>
+                      <span class="blog-card-text2">
+                        <span>Jan 8, 2025</span>
+                      </span>
+                    </div>
+                    <span class="blog-card-text3">
+                      <span>
+                        Join the Dover-Sherborn Team as they embark on their
+                        DECA first journey&nbsp;as they compete and excel in
+                        local business challenges at Districts!
+                      </span>
+                    </span>
+                    <span class="blog-card-text4"><span>Learn more</span></span>
+                  </div>
+                </blog-card-wrapper>
+                <blog-card-wrapper-qlny
+                  class="blog-card-wrapper-qlny"
+                  rootclassname="blog-cardundefined">
+                  <!--BlogCard component-->
+                  <div class="blog-card-blog-card1 blog-cardroot-class-name1">
+                    <img
+                      alt="image"
+                      src="public/external/efsuposxyam54ek-1500w.jpg"
+                      class="blog-card-image1"/>
+                    <div class="blog-card-container1">
+                      <button class="blog-card-button1 button-secondary button">
+                        <span>
+                          <fragment class="home-fragment2">
+                            <span class="home-text30">
+                              <span>SCDC</span>
+                          </fragment>
+                        </span>
+                      </button>
+                      <span class="blog-card-text6">
+                        <span>Feb 27, 2025</span>
+                      </span>
+                    </div>
+                    <span class="blog-card-text7">
+                      <span>
+                        Join the Dover-Sherborn Team as they embark on their
+                        DECA first journey&nbsp;as they compete and excel in
+                        local business challenges at Districts!
+                      </span>
+                    </span>
+                    <span class="blog-card-text8"><span>Learn more</span></span>
+                  </div>
+                </blog-card-wrapper-qlny>
+                <blog-card-wrapper-9b1s class="blog-card-wrapper-9b1s">
+                  <!--BlogCard component-->
+                  <div class="blog-card-blog-card2 blog-card">
+                    <img
+                      alt="image"
+                      src="public/external/coming-soon-4bdaacee9f-1500w.jpg"
+                      class="blog-card-image2"/>
+                    <div class="blog-card-container2">
+                      <button class="blog-card-button2 button-secondary button">
+                        <span>
+                          <fragment class="home-fragment3">
+                            <span class="home-text33">
+                              <span>ICDC</span>
+                              <br />
+                            </span>
+                          </fragment>
+                        </span>
+                      </button>
+                      <span class="blog-card-text10">
+                        <span>April 26, 2025</span>
+                      </span>
+                    </div>
+                    <span class="blog-card-text11">
+                      <span>
+                        Be part of the Dover-Sherborn team’s journey as they
+                        compete on the global stage at the International Career
+                        Development Conference!
+                      </span>
+                    </span>
+                    <span class="blog-card-text12">
+                      <span>Learn more</span>
+                    </span>
+                  </div>
+                </blog-card-wrapper-9b1s>
+              </div>
+            </div>
+          </div>
+        </main>
+        <contact3-wrapper
+          class="contact3-wrapper"
+          rootclassname="contact3undefined">
+          <!--Contact3 component-->
+          <div
+            class="contact3-contact20 thq-section-padding contact3root-class-name">
+            <div class="contact3-max-width thq-section-max-width">
+              <div class="contact3-section-title">
+                <div class="contact3-content1">
+                  <h2 class="thq-heading-2">
+                    <fragment class="home-fragment8">
+                      <span class="home-text45">Contact Us</span>
+                    </fragment>
+                  </h2>
+                </div>
+              </div>
+              <div class="contact3-row">
+                <div class="contact3-content2">
+                  <component2-wrapper class="component2-wrapper">
+                    <!--Component2 component-->
+                    <div class="component2-container">
+                      <img
+                        alt="image"
+                        src="public/icons8-message-100-200h.png"
+                        class="component2-image"
+                      />
+                    </div>
+                  </component2-wrapper>
+                  <div class="contact3-contact-info1">
+                    <div class="contact3-content3">
+                      <h3 class="contact3-text11 thq-heading-3">
+                        Social Media
+                      </h3>
+                    </div>
+                    <span class="contact3-phone thq-body-small">
+                      <fragment class="home-fragment5">
+                        <span class="home-text42">Instagram: @doversherborn.deca</span>
+                      </fragment>
+                    </span>
+                  </div>
+                </div>
+                <div class="contact3-content4">
+                  <component3-wrapper class="component3-wrapper">
+                    <!--Component3 component-->
+                    <div class="component3-container">
+                      <img
+                        alt="image"
+                        src="public/icons8-email-100-200h.png"
+                        class="component3-image"
+                      />
+                    </div>
+                  </component3-wrapper>
+                  <div class="contact3-contact-info2">
+                    <div class="contact3-content5">
+                      <h3 class="contact3-text12 thq-heading-3">Email</h3>
+                      <p class="contact3-text13 thq-body-large">
+                        <fragment class="home-fragment7">
+                          <span class="home-text44">
+                            Contact the Dover-Sherborn DECA Faculty Advisors for
+                            any inquiries
+                          </span>
+                        </fragment>
+                      </p>
+                    </div>
+                    <span class="contact3-email thq-body-small">
+                      <fragment class="home-fragment4">
+                        <span class="home-text36">
+                          <span>
+                            | Amanda Lydon |&nbsp;lydona@doversherborn.org
+                          </span>
+                          <br />
+                          <br />
+                          <span>
+                            | Noah Schultze |&nbsp;schulzen@doversherborn.org
+                          </span>
+                          <br />
+                        </span>
+                      </fragment>
+                    </span>
+                  </div>
+                </div>
+                <div class="contact3-content6">
+                  <component4-wrapper class="component4-wrapper">
+                    <!--Component4 component-->
+                    <div class="component4-container">
+                      <img
+                        alt="image"
+                        src="public/icons8-location-100-200h.png"
+                        class="component4-image"
+                      />
+                    </div>
+                  </component4-wrapper>
+                  <div class="contact3-contact-info3">
+                    <div class="contact3-content7">
+                      <h3 class="contact3-text14 thq-heading-3">School</h3>
+                    </div>
+                    <span class="contact3-address thq-body-small">
+                      <fragment class="home-fragment6">
+                        <span class="home-text43">
+                          9 Junction St, Dover, MA, 02030
+                        </span>
+                      </fragment>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </contact3-wrapper>
+        <div class="home-footer section-container">
+          <div class="max-content-container">
+            <div class="home-top-part">
+              <div class="home-links-container">
+                <div class="home-product-container">
+                  <span class="home-text46">DECA</span>
+                  <div class="home-navigate-container1">
+                    <span class="home-text47">About Us</span>
+                    <span class="home-text48">Preparation</span>
+                    <span>Events</span>
+                  </div>
+                </div>
+                <div class="home-container2">
+                  <span class="home-text50">Preparation</span>
+                  <div class="home-navigate-container2">
+                    <span class="home-text51">DECA+</span>
+                    <span class="home-text52">Quizlets</span>
+                    <span>More</span>
+                  </div>
+                </div>
+                <div class="home-contact-container">
+                  <span class="home-text54">Contact Us</span>
+                  <span class="home-text55">
+                    <span>9 Junction St,</span>
+                    <br />
+                    <span>Dover, MA, 02030</span>
+                  </span>
+                </div>
+              </div>
+              <div class="home-subscribe-container">
+                <span class="home-text59">
+                  Check out our latest newsletter!
+                </span>
+                <input
+                  type="text"
+                  placeholder="Enter your e-mail address"
+                  class="home-textinput input"
+                />
+                <button class="button-primary button">Send</button>
+              </div>
+            </div>
+          </div>
+          <div class="home-separator"></div>
+          <footer class="home-max-width5 max-content-container">
+            <app-component-wrapper class="app-component-wrapper">
+              <!--AppComponent component-->
+              <div class="app-component-container">
+                <img
+                  alt="public/doversherborndeca-200h.png"
+                  src="public/doversherborndeca-200h.png"
+                  class="app-component-image"
+                />
+              </div>
+            </app-component-wrapper>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+    <script defer="">
+      window.onload = () => {
+        const runAllScripts = () => {
+          initializeAllSliders();
+        };
+
+        const listenForUrlChanges = () => {
+          let url = location.href;
+          document.body.addEventListener(
+            "click",
+            () => {
+              requestAnimationFrame(() => {
+                if (url !== location.href) {
+                  runAllScripts();
+                  url = location.href;
+                }
+              });
+            },
+            true
+          );
+        };
+
+        const initializeAllSliders = () => {
+          const allSliders = document.querySelectorAll('[data-type="slider"]');
+          allSliders.forEach((slider) => {
+            initializeSlider(slider);
+          });
+        };
+
+        const initializeSlider = (slider) => {
+          const slides = slider.querySelectorAll('[data-type="slide"]');
+          const middle = Math.ceil(slides.length / 2);
+          let currentSlide = middle;
+
+          const nextSlideBtns = document.querySelectorAll(
+            '[data-action="nextSlide"]'
+          );
+          const previousSlideBtns = document.querySelectorAll(
+            '[data-action="previousSlide"]'
+          );
+
+          const changeSlide = (slideIndex, action) => {
+            currentSlide = slideIndex;
+
+            switch (action) {
+              case "next":
+                slideIndex === slides.length
+                  ? (currentSlide = 1)
+                  : currentSlide++;
+                break;
+              case "previous":
+                slideIndex === 1
+                  ? (currentSlide = slides.length)
+                  : currentSlide--;
+            }
+
+            const slide = slides[0];
+            if (!slide) {
+              console.error("No slides present");
+              return;
+            }
+            const style = window.getComputedStyle(slide);
+            slideWidth =
+              parseInt(style.width) +
+              parseInt(style.marginLeft) +
+              parseInt(style.marginRight);
+            const transformValue = -slideWidth * (currentSlide - middle);
+
+            slider.style.transform = `translateX(${transformValue}px)`;
+          };
+
+          previousSlideBtns.forEach((btn) => {
+            btn.addEventListener("click", () =>
+              changeSlide(currentSlide, "previous")
+            );
+          });
+
+          nextSlideBtns.forEach((btn) => {
+            btn.addEventListener("click", () =>
+              changeSlide(currentSlide, "next")
+            );
+          });
+        };
+
+        runAllScripts();
+      };
+    </script>
+  </body>
+</html>

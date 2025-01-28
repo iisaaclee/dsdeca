@@ -1,0 +1,15 @@
+.component-container {
+  display: flex;
+  position: relative;
+}
+ 
+.component-image {
+  width: 100px;
+  object-fit: cover;
+}
+ 
+@media(max-width: 479px) {
+  .component-image {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
