@@ -100,10 +100,13 @@ nav ul li a {
     margin-bottom: 15px;
 }
 
-.lydon, .raia, .lee{
-    width: 150px; 
+.lydon, .raia, .lee, .wang, .schultze {
+    width: 150px;
+    height: 150px; /* Maintain consistent dimensions */
     margin-bottom: 10px;
-    border-radius: 4px; 
+    border-radius: 4px;
+    object-fit: contain; /* Keeps the entire image visible without cropping */
+    display: block;
 }
 
 .advisor-description, .leader-description {

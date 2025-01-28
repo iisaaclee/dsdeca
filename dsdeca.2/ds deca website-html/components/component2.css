@@ -1,0 +1,10 @@
+.component2-container {
+  display: flex;
+  position: relative;
+}
+ 
+.component2-image {
+  width: var(--dl-size-size-small);
+  height: 100%;
+  object-fit: cover;
+}
